@@ -1,6 +1,7 @@
 # Klotski-HarmonyOS-Watch
 Klotski is a classic math fun puzzle game that consists of numbered square blocks in random order with one block missing. The goal of the game is to arrange the random numbers in order. The game includes 3 levels of difficulty, i.e., 3x3 puzzle for beginners, 4x4 puzzle for classic players, and 5x5 puzzle for challengers.  Enjoy playing the math fun Klotski puzzle game on watch. Try to challenge your logic and brainpower!
-Description of how to play the game:
+
+# Description of how to play the game:
 1.	On the start page of Game Klotski, select difficulty level (NxN, N = 3, 4, or 5) to play.
 2.	On game interface, a NxN square matrix is displayed, with random numbers from 1 to (NxN -1) and a blank square distributed in the square matrix. There are 3 buttons on the bottom of game interface. They are START (timer) button, NEW (game) button, and BACK (to start page) button.   
 3.	After clicking the START button, timer is counted and shown in TIME (current time) and BEST (shortest time) on the top of the game interface.

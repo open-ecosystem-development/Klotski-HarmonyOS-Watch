@@ -10,9 +10,9 @@ Description of how to play the game:
 3.	After clicking the START button, timer is counted and shown in TIME (current time) and BEST (shortest time) on the top of the game interface.
 4.	Swiping up, down, left, or right, and the square blocks at the corresponding positions around the blank square blocks will move one square in the corresponding direction.
 5.	After several swipes, when all the numbers are arranged in order, the game over will pop up with scale animation, and there will be no change in swiping.
-6.	After clicking the NEW button, the interface of NEW GAME? will pop up. When the NEW GAME is checked, the same level square matrix with random number is display, and the TIME is zero before the new game starts and the BEST shows the play-time of the previous game.  
+6.	After clicking the NEW button, the interface of NEW GAME? will pop up. When NEW GAME is checked, the same level square matrix with random number is display, and the TIME is zero before the new game starts and the BEST shows the play-time of the previous game.  
 7.	After clicking the START button, the new game starts, and the TIME shows the current time. Next steps are same from 4 to 6 above. 
-8.	If you want to change the difficulty level, click the BACK button. The game interface is changed to the start page of Game Klotski. You can select the difficulty level and then play the game.    
+8.	If you want to change the difficulty level, click the BACK button. The game interface is back to the start page. You can select the difficulty level and then play the game.    
 
 # User guide 
 Download this Project and open DevEco Studio 3.0 Beta2 or later, click File> Open> Then select and open this Project • Click Build> Build App(s)/Hap(s)>Build Debug Hap(s) to compile the hap package.  Then Click Run> Run 'entry' to run the hap package.

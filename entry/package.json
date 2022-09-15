@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@hw-hmscore/analytics-sdk-harmony": "^6.6.0-300"
+  }
+}

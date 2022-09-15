@@ -1,0 +1,94 @@
+{
+  "app": {
+    "bundleName": "com.gameklotskifw.hmos",
+    "vendor": "futurewei",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.gameklotskifw.hmos",
+    "name": ".MyApplication",
+    "mainAbility": "com.gameklotskifw.hmos.MainAbility",
+    "deviceType": [
+      "wearable"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "metaData": {
+      "customizeData": [
+        {
+          "name": "hwc-theme",
+          "value": "androidhwext:style/Theme.Emui.Dark.NoActionBar"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "name": "com.gameklotskifw.hmos.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:app_name",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "permissions": [
+          "com.huawei.agconnect.core.DataAbilityShellProvider.PROVIDER"
+        ],
+        "name": "com.huawei.agconnect.core.provider.AGConnectInitializeAbility",
+        "type": "data",
+        "uri": "dataability://com.gameklotskifw.hmos.AGConnectInitializeAbility"
+      },
+      {
+        "name": "com.huawei.hms.analytics.AnalyticsServiceAbility",
+        "icon": "$media:icon",
+        "visible": false,
+        "type": "service"
+      }
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.VIBRATE",
+        "reason": "",
+        "usedScene": {
+          "ability": [
+            ".MainAbility"
+          ],
+          "when": "inuse"
+        }
+      }
+    ],
+    "js": [
+      {
+        "pages": [
+          "pages/home/home",
+          "pages/threebythree/threebythree",
+          "pages/fourbyfour/fourbyfour",
+          "pages/fivebyfive/fivebyfive"
+        ],
+        "name": "default",
+        "window": {
+          "designWidth": 454,
+          "autoDesignWidth": false
+        }
+      }
+    ]
+  }
+}

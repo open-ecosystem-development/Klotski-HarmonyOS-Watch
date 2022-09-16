@@ -34,7 +34,7 @@ The demo code is licensed under the Apache License version 2.0 and ISC License.
 The code in this project has been modified from HarmonyOS open source demo and Huawei Analytics demo. Their contributions are greatly appreciated.
 
 # Questions
-If you have a questions - Stack Overflow is the best place for any programming inquiries. Be sure to include the tag huawei-mobile-services.
+If you have questions - Stack Overflow is the best place for any programming inquiries. Be sure to include the tag huawei-mobile-services.
 
 # Screenshots
 

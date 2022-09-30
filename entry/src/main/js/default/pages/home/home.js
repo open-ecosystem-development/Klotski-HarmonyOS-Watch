@@ -12,21 +12,30 @@
  */
 
 import router from '@system.router';
+import app from '@system.app';
 
 export default {
     to3x3() {
-        router.push({
+        router.replace({
             uri: 'pages/threebythree/threebythree',
         })
     },
     to4x4() {
-        router.push({
+        router.replace({
             uri: 'pages/fourbyfour/fourbyfour',
         })
     },
     to5x5() {
-        router.push({
+        router.replace({
             uri: 'pages/fivebyfive/fivebyfive',
         })
     },
+    touchMove(e) {
+        if(e.direction == "right"){
+            this.appExit();
+        }
+    },
+    appExit(){
+        app.terminate();
+    }
 }

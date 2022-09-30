@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 
-<div class="container">
+<div class="container" onswipe="touchMove">
     <image class="img img-rotate" src="/common/images/animation1.png"></image>
     <text class="text">
         Game Klotski

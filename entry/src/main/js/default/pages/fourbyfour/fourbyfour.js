@@ -190,6 +190,8 @@ export default {
         this.onShow();
     },
     checkBack() {
-        router.back();
-    },
+        router.replace({
+            uri: 'pages/home/home'
+        });
+    }
 }
